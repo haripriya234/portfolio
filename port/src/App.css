@@ -1,0 +1,12 @@
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+  }
+  
+.floating {
+    animation: float 4s ease-in-out infinite;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.6;
+  }
